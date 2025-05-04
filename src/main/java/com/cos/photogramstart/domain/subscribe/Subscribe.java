@@ -36,7 +36,7 @@ public class Subscribe {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@JoinColumn(name = "fromUserId") // 이렇게 컬럼명 만들어! 니 맘대로 만들지 말고!!
+	@JoinColumn(name = "fromUserId") // 이렇게 컬럼명 만들자.. 자동으로 안만든다
 	@ManyToOne
 	private User fromUser;
 	

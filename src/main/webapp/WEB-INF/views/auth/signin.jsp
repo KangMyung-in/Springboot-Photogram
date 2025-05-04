@@ -30,23 +30,7 @@
                             <button>로그인</button>
                         </form>
                         <!--로그인 인풋end-->
-                        
-                        <!-- 또는 -->
-                        <div class="login__horizon">
-                            <div class="br"></div>
-                            <div class="or">또는</div>
-                            <div class="br"></div>
-                        </div>
-                        <!-- 또는end -->
-                        
-                        <!-- Oauth 소셜로그인 -->
-                        <div class="login__facebook">
-                            <button onclick="javascript:location.href='/oauth2/authorization/facebook'">
-                                <i class="fab fa-facebook-square"></i>
-                                <span>Facebook으로 로그인</span>
-                            </button>
-                        </div>
-                        <!-- Oauth 소셜로그인end -->
+
                     </div>
                     
                     <!--계정이 없으신가요?-->

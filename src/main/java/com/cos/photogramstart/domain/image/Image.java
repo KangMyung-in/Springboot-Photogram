@@ -33,7 +33,7 @@ public class Image { // N,   1
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private String caption; // 오늘 나 너무 피곤해!!
+	private String caption; 
 	private String postImageUrl; // 사진을 전송받아서 그 사진을 서버에 특정 폴더에 저장 - DB에 그 저장된 경로를 insert
 	
 	@JsonIgnoreProperties({"images"})

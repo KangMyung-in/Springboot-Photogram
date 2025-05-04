@@ -14,19 +14,19 @@ spring:
       
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/photogram?serverTimezone=Asia/Seoul
+    url: jdbc:mariadb://localhost:3306/photogram?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false
     username: cos
     password: cos1234
     
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create # create, update, none
+      ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
       
-  servlet: 
+  servlet:
     multipart:
       enabled: true
       max-file-size: 2MB
@@ -34,7 +34,8 @@ spring:
   security:
     user:
       name: test
-      password: 1234   
+      password: 1234
+      
 
 file:
-  path: C:/workspace/springbootwork/upload/
+  path: C:/workspace/springbootwork3/upload/

@@ -43,7 +43,7 @@ public class Likes { // N
 	private Image image; // 1
 	
 	@JsonIgnoreProperties({"images"})
-	// 오류가 터지고 나서 잡아봅시다.
+	// 오류가 터지고 나서 잡아봅시다. 무한참조
 	@JoinColumn(name = "userId")
 	@ManyToOne
 	private User user; // 1

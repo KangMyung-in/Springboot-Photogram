@@ -14,7 +14,7 @@
 						<img class="profile-image" src="#"
 							onerror="this.src='/images/person.jpeg'" />
 					</div>
-					<div>TherePrograming</div>
+					<div></div>
 				</div>
 
 				<div class="sl__item__img">

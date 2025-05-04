@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data // Getter, Setter
 public class SignupDto {
-	// https://bamdule.tistory.com/35 (@Valid 어노테이션 종류)
+	
 	@Size(min = 2, max = 20)
 	@NotBlank
 	private String username;

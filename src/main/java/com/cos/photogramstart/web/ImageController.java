@@ -27,7 +27,7 @@ public class ImageController {
 		return "image/story";
 	}
 	
-	// API 구현한다면 - 이유 - (브라우저에서 요청하는게 아니라, 안드로이드,iOS 요청)
+
 	@GetMapping("/image/popular")
 	public String popular(Model model) {
 		// api는 데이터를 리턴하는 서버!!
